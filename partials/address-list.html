@@ -4,10 +4,8 @@
     <div class="panel panel-default">
         <div class="panel-body">
            
-            <div class="col-xs-7"><a ng-href="#!/contact/view/{{contact.id}}">Name: {{contact.firstName}} {{contact.lastName}}</a></div>
-            <div>Address: {{contact.streetAddress}} {{contact.city}} {{contact.state}} {{contact.zip}}</div>
-            <div>Phone: {{contact.phone}}</div>
-            <div>Email: {{contact.email}}</div>
+            <div class="col-xs-7"><a ng-href="#!/contact/view/{{contact.id}}">Name: {{contact.firstName}} {{contact.lastName}}<br>Address: {{contact.streetAddress}} {{contact.city}} {{contact.state}} {{contact.zip}}<br>Phone: {{contact.phone}}<br>Email: {{contact.email}}</a></div>
+            <div></div>
             <div class="col-xs-1">
                 <button class="btn btn-danger fa fa-trash-o" ng-click="deleteContact(contact.id)"></button>
             </div>
