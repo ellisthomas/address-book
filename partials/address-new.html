@@ -1,9 +1,8 @@
-<h3>New Contact</h3>
+<h3 class="list-inline center-block text-center">New Contact</h3>
 <div class="row">
         <div class="col-xs-8 col-xs-offset-2">
             <div ng-controller="">
                 <div class="form-group">
-                    <div class="radio list-inline center-block text-center">
                     <label></label>
                     <input type="text" class="form-control" placeholder="First Name........." ng-model="newContact.firstName" /><br>
                     <input type="text" class="form-control" placeholder="Last Name........." ng-model="newContact.lastName" /><br>
@@ -14,8 +13,7 @@
                     <input type="text" class="form-control" placeholder="Phone Number........." ng-model="newContact.phone" /><br> 
                     <input type="text" class="form-control" placeholder="Email........." ng-model="newContact.email" />
                       
-                      <button class="btn btn-danger" ng-click="addNewContact()">Submit</button>   <!-- change ng-click to new function for new address -->
-                    </div>
+                      <button class="btn btn-danger list-inline center-block text-center" ng-click="addNewContact()">Submit</button>   <!-- change ng-click to new function for new address -->
                 </div>
             </div>
         </div>

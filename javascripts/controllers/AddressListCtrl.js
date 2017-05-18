@@ -4,6 +4,8 @@ app.controller("AddressListCtrl", function($scope, AddressFactory) {
     let getContacts = () => {
         AddressFactory.getContactList().then((contactz) => {
             $scope.contacts = contactz;
+            console.log("contactz", contactz);
+
         }).catch((error) => {
             console.log("get Error", error);
         });
@@ -28,3 +30,5 @@ app.controller("AddressListCtrl", function($scope, AddressFactory) {
     	});
     };
 });
+
+
