@@ -8,31 +8,19 @@
 </head>
 
 <body ng-app="AddressApp">
-
-        <h1 class="list-inline center-block text-center">Address Book</h1>
- 
+    <div ng-include="'partials/navbar.html'"></div>
     <div class="row">
-        <div class="col-xs-8 col-xs-offset-2">
-            <div ng-controller="">
-                <div class="form-group">
-                    <label></label>
-                    <input type="text" class="form-control" placeholder="Search Mushrooms ........." ng-model="searchText" />
-                    <div class="radio list-inline center-block text-center">
-                        <label class="radio-inline">
-                            <input type="radio" ng-model="isEdible" value="false">$$$$$$$$</label>
-                        <label class="radio-inline">
-                            <input type="radio" ng-model="isEdible" value="true">#########</label>
-                        <div ng-repeat="item in mushroomItems | filter: searchText | filter: isEdible">
-                            <!-- <h3>{{item.name}}</h3> -->
-                            <!-- <p>{{item.description}}</p> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <h1 class="list-inline center-block text-center">Address Book</h1>
+        <div class="col-xs-8 col-xs-offset-2" ng-view>
+        
         </div>
+    </div>
+
+ 
+    
 
 
-	<div ng-controller="ItemCtrl">{{addy}}</div>
+	<!-- <div ng-controller="ItemCtrl">{{addy}}</div> -->
 
 
 

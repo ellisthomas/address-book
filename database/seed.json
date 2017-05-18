@@ -1,0 +1,34 @@
+{
+    "contacts": {
+        "contact0": {
+            "firstName": "Tom" ,
+            "lastName": "Jones",
+            "streetAddress": "123 Main St.",
+            "city": "Nerdville",
+            "state": "TN",
+            "zip": "25311",
+            "phone": "555-555-5555",
+            "email": "jo@email.com"
+        },
+        "contact1": {
+            "firstName": "Lolo",
+            "lastName": "Polo",
+            "streetAddress": "1 Ralph Way",
+            "city": "Izzy",
+            "state": "CA",
+            "zip": "90210",
+            "phone": "444-444-4444",
+            "email": "Lolo@gmail.com"
+        },
+        "contact2": {
+            "firstName": "Seed" ,
+            "lastName": "Data",
+            "streetAddress": "101 Seed Json Ln.",
+            "city": "Nashville",
+            "state": "TN",
+            "zip": "37086",
+            "phone": "333-333-333",
+            "email": "data101@snail.com"
+        }
+    }
+}
