@@ -3,7 +3,7 @@ app.controller("AddressNewCtrl", function($http, $location, $q, $scope, FIREBASE
 	$scope.addNewContact = () => {
 		AddressFactory.postNewContact($scope.newContact).then((response) => {
 			$scope.newContact = {};
-			$location.url("contacts/new");
+			$location.url("contacts/list");
 		}).catch((error) => {
 			console.log("Add error", error);
 		});
