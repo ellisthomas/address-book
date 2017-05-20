@@ -1,10 +1,11 @@
 body {
   background-image: url("http://www.zastavki.com/pictures/originals/2014/Creative_Wallpaper_Points_to_the_address_book_071595_.jpg");
-  background-position: center;
-  color: white; }
+  background-position: center; }
 
 h1 {
+  color: white;
   text-shadow: #000 0px 0px 14px,   #000 0px 0px 14px,   #000 0px 0px 14px; }
 
 h3 {
+  color: white;
   text-shadow: #000 0px 0px 10px,   #000 0px 0px 10px,   #000 0px 0px 10px; }
