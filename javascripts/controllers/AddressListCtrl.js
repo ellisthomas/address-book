@@ -1,8 +1,8 @@
-app.controller("AddressListCtrl", function($scope, AddressFactory) {
+app.controller("AddressListCtrl", function($rootScope, $scope, AddressFactory) {
     $scope.contacts = [];
 
     let getContacts = () => {
-        AddressFactory.getContactList().then((contactz) => {
+        AddressFactory.getContactList($rootScope.user.uid).then((contactz) => {
             $scope.contacts = contactz;
             console.log("contactz", contactz);
 
